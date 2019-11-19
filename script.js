@@ -1,5 +1,5 @@
-function logMessage() {
-    console.log("commit 1");
+function logMessage(commitNum) {
+    console.log("commit " + commitNum);
 }
 
-logMessage();
+logMessage(5);
